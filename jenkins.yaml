@@ -31,7 +31,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "hmardis-cloudbees-connect"
               repository: "pipeline-library"
 credentials:
   system:
@@ -44,10 +44,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAw0rCAiEakTDFPPKaXzXPbFqnKAhR2Sr6IdvPoftMhkBlWgGhgWHRuAkD0ycDE/qxFnwUPZGQeKqbvaJX6P7ki1g==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "hmardis"
+              password: "{AQAAABAAAAAw0rCAiEakTDFPPKaXzXPbFqnKAhR2Sr6IdvPoftMhkBlWgGhgWHRuAkD0ycDE/qxFnwUPZGQeKqbvaJX6P7ki1g==}"
